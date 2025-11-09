@@ -1,0 +1,53 @@
+:root {
+    --colour-darkblue: #2821EB;
+    --color-dark: #0f081e;
+    --coulor-lightblue: #52ebeb;
+
+
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--color-dark);
+
+
+
+
+}
+
+.text-darkblue {
+    color: var(--colour-darkblue) !important;
+}
+
+.bg-blue {
+    background-color: var(--colour-darkblue) !important;
+}
+.btn-darkblue {
+    background-color: var(--colour-darkblue);
+    border-color: var(--colour-darkblue);
+    color: beige;
+}
+.btn-darkblue:hover {
+    background-color: #2821EB;
+    border-color: #2821EB;
+    color: beige;
+}
+
+.nav-link.active {
+    color: var(--colour-darkblue) !important;
+    font-weight: 600;
+}
+
+.project-card {
+    transition: transform 0.3s ease;
+}
+
+.project-card.hover {
+    transform: translateY(-5px);
+}
+.margin-top-custom {
+    margin-top: 120px;
+}
+
+
+
